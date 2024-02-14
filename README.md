@@ -1,7 +1,7 @@
 # to clone the project
 1. run :- git clone https://github.com/talibBijnori/test.git
 2. i have also added postman collection to the repo on the root directory called = kanye.postman_collection.json.
-import into the post to test the api
+import into the postman to test the api
 
 # email = user@gmail.com
 # password = 123456
@@ -10,7 +10,7 @@ import into the post to test the api
 1. create the database = kanyetest 
     or change from the .env file
 
-2. dont run php artisan migrate command, just import the database into phpmyadmin
+2. dont run php artisan migrate command, just import the database into phpmyadmin as placed on the root directory.
  #          OR
  run php artisan migrate command and insert 
   email = user@gmail.com
