@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "e7c5cb41-0e39-4aef-9f73-db0581a3eace",
+		"name": "kanye",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "23894070"
+	},
+	"item": [
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"user@gmail.com\",\r\n    \"password\":\"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/api/login"
+			},
+			"response": []
+		},
+		{
+			"name": "showData",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "VDiwX9BfwSBUqwBlKfuEmgVPp2ZrDSy1yo5jaOCb7c01b5af"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/api/showData"
+			},
+			"response": []
+		},
+		{
+			"name": "refresh",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "VDiwX9BfwSBUqwBlKfuEmgVPp2ZrDSy1yo5jaOCb7c01b5af"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/api/showData"
+			},
+			"response": []
+		}
+	]
+}
